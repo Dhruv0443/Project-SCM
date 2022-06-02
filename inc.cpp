@@ -26,6 +26,20 @@ class Square:public Number
         return sqr;
     }
 };
+
+class Cube:public Number
+{
+    private:
+
+    public:
+    int getCube(void)
+    {
+        int num,cube;
+        num=returnNumber(); //get number from class Number
+        cube=num*num*num;
+        return cube;
+    }
+};
 int main()
 {
         Square objS;
