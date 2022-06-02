@@ -26,5 +26,41 @@
     <div class="box" id="content"><p>Happy Birthday Sam</p></div>
     </body>
 
+<script>
 
+$(document).ready(function(){
+
+    $('#b1').click(function(){
+        $('.box').animate({  
+            height: "200px",
+            opacity: '0.4',
+            width: "250px",
+        },2000)
+        $('.box').animate({  
+            fontSize :"60px",  
+        },2000)
+        $('.div').animate({  
+            left : "+=50x" 
+        },2000)
+    })
+    
+    $("#b2").click(function(){
+        $(".box").toggle();
+    })
+
+    $("#b3").click(function(){
+        $(".box").fadeTo("slow", 0.2)
+    })
+   
+    $("#b4").click(function(){
+        $(".box").slideToggle(2000);
+    })
+  
+})
+
+
+
+
+
+</script>
 </html>
