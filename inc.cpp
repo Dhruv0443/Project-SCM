@@ -15,7 +15,17 @@ class Number
         int returnNumber(void)
         { return num; }
 };
-
+class Square:public Number
+{
+    public:
+    int getSquare(void)
+    {
+        int num,sqr;
+        num=returnNumber(); //get number from class Number
+        sqr=num*num;
+        return sqr;
+    }
+};
 int main()
 {
         Square objS;
