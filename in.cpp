@@ -14,7 +14,7 @@ int main(){
 
     }
 
-vector<int> A{1,2,3,4,5,6};
+vector<int> A{1,2,3,4,5,7};
 
     A.pop_back();
 
